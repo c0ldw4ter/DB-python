@@ -1,0 +1,2 @@
+psycopg2==2.9.10
+prettytable==3.12.0
