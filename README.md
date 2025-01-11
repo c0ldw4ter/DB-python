@@ -5,7 +5,7 @@
 - Download all dependencies(~pip install -r requirements.txt)
 - Now you can run python script db.py
 
-# Info about project^
+# Info about project
 - Key actions are logged
 - Available options   
   - 1. “Information about each airplane.”
