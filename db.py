@@ -10,6 +10,40 @@ logging.basicConfig(level=logging.INFO, filename="aviation.log", filemode="a",
 def connect_to_db():
     """Подключение к базе данных."""
     try:
+
+"""
+username:password
+
+db_admin: admin;
+db_operator: operator;
+db_analyst: analyst;
+db_user: user
+
+
+
+Роль:
+db_admin
+Права:
+Полный доступ: создание, изменение, удаление объектов.
+
+
+Роль:
+db_operator
+Права:
+Чтение, добавление, редактирование и удаление данных.
+
+Роль:
+db_analyst
+Права:
+Только чтение данных.
+
+Роль:
+db_user
+Права:
+Только чтение данных из основной таблицы(aviation), нет доступа ко всем другим всмпомогательным таблицам
+
+"""
+
         user = "db_admin"
         passwd = 'admin'  
         conn = psycopg2.connect(
