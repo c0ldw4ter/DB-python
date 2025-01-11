@@ -28,22 +28,22 @@
 - Available roles:
   
   - Role:
-  - db_admin
-  - Permissions:
-   -Full access: create, modify, delete objects.
+  - 1. db_admin
+  - 2. Permissions:
+  - 3. Full access: create, modify, delete objects.
 
   - Role:
-  - db_operator
-  - Permissions:
-  - Read, add, edit and delete data.
+  - 1. db_operator
+  - 2. Permissions:
+  - 3. Read, add, edit and delete data.
 
   - Role:
-  - db_analyst
-  - Permissions:
-  - Read data only.
+  - 1. db_analyst
+  - 2. Permissions:
+  - 3. Read data only.
 
   - Role:
-  - db_user
-  - Permissions:
-  - Only read data from the main table (aviation), no access to all other helper tables
+  - 1. db_user
+  - 2. Permissions:
+  - 3. Only read data from the main table (aviation), no access to all other helper tables
   
