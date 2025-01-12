@@ -1,7 +1,7 @@
 ### This code is written in Python for easy execution of complex PostgreSQL queries.
 # To launch:
 - Need to create database with all tables and roles, to do it you need to use file db.sql. DB must called "aviation"
-- In project folder need to create python venv `0python -m venv venv`
+- In project folder need to create python venv `python -m venv venv`
 - Download all dependencies `pip install -r requirements.txt`
 - Now you can run python script db.py `python db.py`
 
